@@ -12,7 +12,18 @@ const Navbar = () => {
       >
 
         <Container> 
-          quelque chose
+          <div
+            className='
+              flex
+              flex-row
+              justify-between
+              items-center
+              gap-3
+              md:gap-0
+            '
+          >
+
+          </div>
         </Container>
 
       </div>
