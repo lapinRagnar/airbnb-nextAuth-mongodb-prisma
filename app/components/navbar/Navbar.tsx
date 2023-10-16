@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 import Logo from './Logo'
+import Search from './Search'
 
 const Navbar = () => {
   return (
@@ -24,6 +25,7 @@ const Navbar = () => {
             '
           >
             <Logo />
+            <Search />
           </div>
         </Container>
 
