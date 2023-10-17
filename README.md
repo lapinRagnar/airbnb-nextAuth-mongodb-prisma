@@ -89,6 +89,22 @@ npx prisma init
 npx prisma db push
 ```
 
+### 3- utiliser next-auth
+https://next-auth.js.org/getting-started/example
+
+#### installation de next-auth
+```
+npm i next-auth
+```
+
+#### installation de bcrypt
+```
+npm i bcrypt
+npm i -D @types/bcrypt
+```
+
+
+
 
 
 # Astuces
