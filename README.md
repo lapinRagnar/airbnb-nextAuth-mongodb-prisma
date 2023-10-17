@@ -45,8 +45,26 @@ https://github.com/AntonioErdeljac/next13-airbnb-clone
 # ressources utilisées
 
 ### react icons
+https://react-icons.github.io/react-icons/search?q=euro
+
 ```
 npm install react-icons
+```
+
+### pour le modal register - creation de la page d'auth
+```
+npm i axios
+```
+
+```
+npm i zustand
+```
+```
+npm i react-hook-form
+```
+
+```
+npm i react-hot-toast
 ```
 
 
