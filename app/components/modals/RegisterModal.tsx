@@ -9,6 +9,7 @@ import { FieldValues, SubmitHandler, useForm } from "react-hook-form"
 import useRegisterModal from "@/app/hooks/useRegisterModal"
 import Modal from "./Modal"
 import Heading from "../Heading"
+import Input from "../imputs/Input"
 
 
 const RegisterModal = () => {
@@ -52,8 +53,10 @@ const RegisterModal = () => {
       <Heading 
         title='Welcome to Airbnb'
         subtitle='Create an account!'
-
       />
+
+      <Input />
+      
     </div>
   )
 
