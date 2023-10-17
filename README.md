@@ -50,3 +50,5 @@ npm install react-icons
 ```
 
 
+# Astuces
+- mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
