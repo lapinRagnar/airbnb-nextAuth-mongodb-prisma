@@ -81,8 +81,13 @@ npx prisma init
 - je me suis connecté avec mon compte google
 - cliquer sur build a database
 - ajouter une adresse ip : 0.0.0.0/0 
-- connect et connect using vscode
+- connect et connect using vscode, en utilisant .env et 
 
+- ensuite, créer le schema avec prisme : User, Accounts, Listings, Reservations
+- exécuter la commande : 
+```
+npx prisma db push
+```
 
 
 
