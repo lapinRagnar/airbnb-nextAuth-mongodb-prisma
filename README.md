@@ -45,6 +45,8 @@ https://github.com/AntonioErdeljac/next13-airbnb-clone
 # ressources utilisées
 
 ### react icons
+https://react-icons.github.io/react-icons/search?q=euro
+
 ```
 npm install react-icons
 ```
