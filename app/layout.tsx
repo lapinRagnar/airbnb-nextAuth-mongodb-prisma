@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className={font.className}>
         
         <ClientOnly>
-          <Modal />
+          <Modal 
+            isOpen
+          />
           <Navbar />
         </ClientOnly>
 
