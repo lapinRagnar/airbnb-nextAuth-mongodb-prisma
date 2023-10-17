@@ -24,6 +24,8 @@ export default function RootLayout({
         <ClientOnly>
           <Modal 
             isOpen
+            title='hello world'
+            actionLabel='submit'
           />
           <Navbar />
         </ClientOnly>
