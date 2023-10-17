@@ -67,6 +67,46 @@ npm i react-hook-form
 npm i react-hot-toast
 ```
 
+## ajouter des fonctionnalités au register form
+### 1- installation de prisma
+
+```
+npm i -D prisma
+npx prisma init
+
+```
+### 2- création de la base de données - on choisit mongodb
+
+- on cree un compte sur : https://www.mongodb.com/atlas/database
+- je me suis connecté avec mon compte google
+- cliquer sur build a database
+- ajouter une adresse ip : 0.0.0.0/0 
+- connect et connect using vscode, en utilisant .env et 
+
+- ensuite, créer le schema avec prisme : User, Accounts, Listings, Reservations
+- exécuter la commande : 
+```
+npx prisma db push
+```
+
+### 3- utiliser next-auth
+https://next-auth.js.org/getting-started/example
+
+#### installation de next-auth
+```
+npm i next-auth
+npm i @next-auth/prisma-adapter
+```
+
+#### installation de bcrypt
+```
+npm i bcrypt
+npm i -D @types/bcrypt
+```
+
+#### 3- créer un fichier prismadb.ts utils
+
+
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
