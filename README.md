@@ -49,6 +49,18 @@ https://github.com/AntonioErdeljac/next13-airbnb-clone
 npm install react-icons
 ```
 
+### pour le modal register - creation de la page d'auth
+```
+npm i axios
+```
+
+```
+npm i zustand
+```
+```
+npm i react-hook-form
+```
+
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
