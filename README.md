@@ -95,6 +95,7 @@ https://next-auth.js.org/getting-started/example
 #### installation de next-auth
 ```
 npm i next-auth
+npm i @next-auth/prisma-adapter
 ```
 
 #### installation de bcrypt
@@ -103,7 +104,7 @@ npm i bcrypt
 npm i -D @types/bcrypt
 ```
 
-
+#### 3- créer un fichier prismadb.ts utils
 
 
 
