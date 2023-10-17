@@ -68,13 +68,23 @@ npm i react-hot-toast
 ```
 
 ## ajouter des fonctionnalités au register form
-### installation de prisma
+### 1- installation de prisma
 
 ```
 npm i -D prisma
 npx prisma init
 
 ```
+### 2- création de la base de données - on choisit mongodb
+
+- on cree un compte sur : https://www.mongodb.com/atlas/database
+- je me suis connecté avec mon compte google
+- cliquer sur build a database
+- ajouter une adresse ip : 0.0.0.0/0 
+- connect et connect using vscode
+
+
+
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
