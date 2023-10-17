@@ -1,3 +1,7 @@
+'use client'
+
+import { useEffect, useState } from "react"
+
 interface ModalProps {
   isOpen: boolean
   onClose: () => void
@@ -14,6 +18,13 @@ interface ModalProps {
 const Modal: React.FC<ModalProps> = (
   {isOpen, onClose, onSubmit, title, body, footer, actionLabel, disabled, secondaryAction, secondaryLabel}
 ) => {
+
+  const [showModal, setShowModal] = useState(isOpen)
+
+  useEffect(() => {
+    setShowModal(isOpen)
+  }, [isOpen])
+
 
   return (
     <div>Modal</div>
