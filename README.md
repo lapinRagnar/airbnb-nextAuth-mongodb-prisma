@@ -63,6 +63,10 @@ npm i zustand
 npm i react-hook-form
 ```
 
+```
+npm i react-hot-toast
+```
+
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
