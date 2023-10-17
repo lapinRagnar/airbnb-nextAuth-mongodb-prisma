@@ -67,6 +67,14 @@ npm i react-hook-form
 npm i react-hot-toast
 ```
 
+## ajouter des fonctionnalités au register form
+### installation de prisma
+
+```
+npm i -D prisma
+npx prisma init
+
+```
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
