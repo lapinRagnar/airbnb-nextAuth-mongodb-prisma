@@ -118,7 +118,27 @@ npm i -D @types/bcrypt
 - ensuite register application
 on obtient un Client ID et Client secrets
 - on met dans le .env : le GITHUB_ID= et GITHUB_SECRET= qu'on recupere sur le site de github
-- 
+- et voila
+
+##### 4-1 parametrer auth avec google (google developper console)
+https://console.cloud.google.com/cloud-resource-manager
+
+- on va dans creer nouveau projet
+- on va ensuite dans Api services d'activité
+- ensuite, onglet OAuth
+- choisir external
+- puis bouton create
+- ensuite remplir le formulaire et valider
+- ensuite on va dans l'onglet, identifiants
+- puis, bouton creer identifiants
+- puis OAuth
+- URI de redirection autorisés : ajouter URI
+- on tape : http://localhost:3000/api/auth/callback/google
+dans le .env on ajoute
+GOOGLE_CLIENT_ID=<le code>
+GOOGLE_CLIENT_SECRET=<le code>
+
+
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
