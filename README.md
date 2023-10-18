@@ -117,6 +117,8 @@ npm i -D @types/bcrypt
 - Authorization callback URL: http://localhost:3000/
 - ensuite register application
 on obtient un Client ID et Client secrets
+- on met dans le .env : le GITHUB_ID= et GITHUB_SECRET= qu'on recupere sur le site de github
+- 
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité

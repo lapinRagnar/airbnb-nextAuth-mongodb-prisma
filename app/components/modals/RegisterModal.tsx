@@ -15,7 +15,7 @@ import Input from "../imputs/Input"
 import Heading from "../Heading"
 import Button from "../Button"
 
-import { signIn } from "next-auth/react"
+import { signIn } from "next-auth/react" // on ajoute ca
 
 import { useRouter } from "next/navigation"
 
@@ -156,7 +156,7 @@ const RegisterModal = () => {
         outline
         label='Continue with Github'
         icon={AiFillGithub}
-        onClick={() => signIn('github')}
+        onClick={() => signIn('github')} // on fait ca
       />
 
       <div
