@@ -32,6 +32,11 @@ export const categories = [
     description: 'this proprety is in the countryside!'
   },
   {
+    label: 'Castle',
+    icon: GiCastle,
+    description: 'this proprety is in the castle!'
+  },
+  {
     label: 'Pools',
     icon: TbPool,
     description: 'this proprety has a pool!'
@@ -65,6 +70,11 @@ export const categories = [
     label: 'Desert',
     icon: GiCactus,
     description: 'this proprety is in the desert!'
+  },
+  {
+    label: 'Boat',
+    icon: GiBoatFishing,
+    description: 'this proprety is in the boat!'
   },
   {
     label: 'Barns',
