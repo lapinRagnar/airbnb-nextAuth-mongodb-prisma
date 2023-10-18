@@ -48,8 +48,11 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             transition
             cursor-pointer
           '
-        >
-          AirBnb Your Home
+        > 
+          <span>AirBnb Your Home </span>
+          <span className='text-green-950 font-bold'>
+            {currentUser && ` - Bonjour ` + currentUser?.email}
+          </span>
         </div>
 
         <div
