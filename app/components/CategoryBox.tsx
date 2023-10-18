@@ -57,6 +57,7 @@ const CategoryBox: React.FC<CategoryBoxPros> = ({icon: Icon, label, selected, de
         cursor-pointer
         ${ selected ? 'border-b-neutral-800' : 'border-transparent'}
         ${ selected ? 'border-neutral-800' : 'text-neutral-500'}
+        ${ selected ? 'bg-yellow-400' : 'text-neutral-500'}
       `}
 
       

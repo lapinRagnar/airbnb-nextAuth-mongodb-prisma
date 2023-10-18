@@ -1,8 +1,12 @@
 import Container from "../Container"
-import { TbBeach,  } from 'react-icons/tb'
-import { GiWindmill } from 'react-icons/gi'
+import { TbBeach, TbMountain, TbPool,  } from 'react-icons/tb'
+import { GiBarn, GiBoatFishing, GiCactus, GiCastle, GiCaveEntrance, GiForestCamp, GiIsland, GiWindmill } from 'react-icons/gi'
+import { FaSkiing } from 'react-icons/fa'
+import { BsSnow } from 'react-icons/bs'
+import { IoDiamondOutline } from 'react-icons/io5'
 import { MdOutlineVilla } from 'react-icons/md'
 import CategoryBox from "../CategoryBox"
+import { usePathname, useSearchParams } from "next/navigation"
 
 export const categories = [
   {
@@ -20,9 +24,70 @@ export const categories = [
     icon: MdOutlineVilla,
     description: 'this proprety is modern!'
   },
+  {
+    label: 'CountrySide',
+    icon: TbMountain,
+    description: 'this proprety is in the countryside!'
+  },
+  {
+    label: 'Pools',
+    icon: TbPool,
+    description: 'this proprety has a pool!'
+  },
+  {
+    label: 'Islands',
+    icon: GiIsland,
+    description: 'this proprety is on an island!'
+  },
+  {
+    label: 'Skiing',
+    icon: FaSkiing,
+    description: 'this proprety has skiing activities!'
+  },
+  {
+    label: 'Camping',
+    icon: GiForestCamp,
+    description: 'this proprety has camping activities!'
+  },
+  {
+    label: 'Artic',
+    icon: BsSnow,
+    description: 'this proprety is in artic!'
+  },
+  {
+    label: 'Cave',
+    icon: GiCaveEntrance,
+    description: 'this proprety is in a cave!'
+  },
+  {
+    label: 'Desert',
+    icon: GiCactus,
+    description: 'this proprety is in the desert!'
+  },
+  {
+    label: 'Barns',
+    icon: GiBarn,
+    description: 'this proprety is in the Barns!'
+  },
+  {
+    label: 'Lux',
+    icon: IoDiamondOutline,
+    description: 'this proprety is luxurious!'
+  },
 ]
 
 const Categories = () => {
+
+  const params = useSearchParams()
+  const category = params?.get('category')
+  const pathname = usePathname()
+
+  const isMainPage = pathname === '/'
+
+  if (!isMainPage) {
+    return null
+  }
+  
   return (
     <Container>
       <div
@@ -41,6 +106,7 @@ const Categories = () => {
             label={item.label}
             description={item.description}
             icon={item.icon}
+            selected={category === item.label}
           />
         ))}
       </div>
