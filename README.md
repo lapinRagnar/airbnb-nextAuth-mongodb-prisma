@@ -106,7 +106,17 @@ npm i -D @types/bcrypt
 
 #### 3- créer un fichier prismadb.ts utils
 
-
+#### 4- se connecter avec les reseau sociaux
+##### 4-1 parametrer auth avec github
+- aller dans le settings global de github
+- dans l'onglet develloper setting
+- onglet OAuth App
+- new OAuth App
+- Application name : airbnb-clone
+- Homepage URL : http://localhost:3000/
+- Authorization callback URL: http://localhost:3000/
+- ensuite register application
+on obtient un Client ID et Client secrets
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
