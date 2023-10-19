@@ -139,6 +139,10 @@ GOOGLE_CLIENT_ID=<le code>
 GOOGLE_CLIENT_SECRET=<le code>
 
 
+### pour la creation du hook useCOuntries
+```
+npm i world-countries
+```
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
