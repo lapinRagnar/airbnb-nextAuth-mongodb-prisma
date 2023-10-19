@@ -144,5 +144,10 @@ GOOGLE_CLIENT_SECRET=<le code>
 npm i world-countries
 ```
 
+### pour la creation du hook useReservations
+```
+npm i react-select
+```
+
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
