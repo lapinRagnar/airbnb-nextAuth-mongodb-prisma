@@ -149,5 +149,14 @@ npm i world-countries
 npm i react-select
 ```
 
+### pour le composant Map
+https://react-leaflet.js.org/
+
+```
+npm i leaflet
+npm install -D @types/leaflet    
+npm install -D @types/react-leaflet
+```
+
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
