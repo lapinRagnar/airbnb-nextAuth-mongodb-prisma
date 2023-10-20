@@ -139,6 +139,24 @@ GOOGLE_CLIENT_ID=<le code>
 GOOGLE_CLIENT_SECRET=<le code>
 
 
+### pour la creation du hook useCOuntries
+```
+npm i world-countries
+```
+
+### pour la creation du hook useReservations
+```
+npm i react-select
+```
+
+### pour le composant Map
+https://react-leaflet.js.org/
+
+```
+npm i leaflet
+npm install -D @types/leaflet    
+npm install -D @types/react-leaflet
+```
 
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
