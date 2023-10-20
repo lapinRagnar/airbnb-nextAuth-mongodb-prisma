@@ -158,5 +158,15 @@ npm install -D @types/leaflet
 npm install -D @types/react-leaflet
 ```
 
+### pour l'image upload
+- s'enregistrer sur cloudinary : https://cloudinary.com/
+- aller dans dashboard pour le cloud name,  NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="cloudname"
+- on va dans le settings, puis upload, puis creer un nouveau preset, puis mettre signing mode en unsigned
+- etape de l'installation dans : https://next.cloudinary.dev/installation
+
+```
+npm install next-cloudinary
+```
+
 # Astuces
 - mettre uniquement la directive 'use client' dans les pages ou on a besoin de reactivité
